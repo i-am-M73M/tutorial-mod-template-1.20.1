@@ -1,4 +1,6 @@
 {
   "item.tutorialmod.ruby": "Ruby",
-  "item.tutorialmod.ruby_nugget": "Ruby nugget"
+  "item.tutorialmod.ruby_nugget": "Ruby nugget",
+
+  "itemgroup.ruby": "Ruby Tutorial Group"
 }
