@@ -2,6 +2,7 @@ package net.mark.tutorialmod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.mark.tutorialmod.TutorialMod;
+import net.mark.tutorialmod.block.ModBlocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -20,6 +21,9 @@ public class ModItemGroups {
                         entries.add(ModItems.RUBY_NUGGET);
 
                         entries.add(Items.DIAMOND);
+
+                        entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.RAW_RUBY_BLOCK);
 
                     }).build());
 
