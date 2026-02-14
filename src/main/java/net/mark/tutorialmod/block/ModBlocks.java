@@ -19,6 +19,9 @@ public class ModBlocks {
     public static final Block RAW_RUBY_BLOCK = registerBlock("raw_ruby_block",
             new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK)));
 
+    public static final Block RUBY_ORE = registerBlock("ruby_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

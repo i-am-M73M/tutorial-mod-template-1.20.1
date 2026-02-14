@@ -24,6 +24,7 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
+                        entries.add(ModBlocks.RUBY_ORE);
 
                     }).build());
 
