@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.block.v1.FabricBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.mark.tutorialmod.TutorialMod;
+import net.mark.tutorialmod.block.custom.SoundBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.ExperienceDroppingBlock;
@@ -21,15 +22,15 @@ public class ModBlocks {
     public static final Block RAW_RUBY_BLOCK = registerBlock("raw_ruby_block",
             new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK)));
 
+    public static final Block MUSIC_NOTE = registerBlock("music_note",
+            new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+
     public static final Block RUBY_ORE = registerBlock("ruby_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.IRON_ORE).strength(3f), UniformIntProvider.create(2, 4)));
-
     public static final Block DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE).strength(5f), UniformIntProvider.create(4, 6)));
-
     public static final Block NETHER_RUBY_ORE = registerBlock("nether_ruby_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.NETHER_QUARTZ_ORE).strength(2f), UniformIntProvider.create(1, 3)));
-
     public static final Block END_STONE_RUBY_ORE = registerBlock("end_stone_ruby_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.END_STONE).strength(4f), UniformIntProvider.create(4, 5)));
 
