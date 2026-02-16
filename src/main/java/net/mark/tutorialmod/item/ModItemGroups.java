@@ -19,6 +19,9 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RAW_RUBY);
+                        entries.add(ModItems.RUBY_LIGHT);
+
+                        entries.add(ModItems.METAL_DETECTOR);
 
                         entries.add(Items.DIAMOND);
 

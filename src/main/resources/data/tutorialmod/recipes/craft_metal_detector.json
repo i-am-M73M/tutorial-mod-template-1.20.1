@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    "!#@",
+    "## "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "@": {
+      "item": "minecraft:leather"
+    },
+    "!": {
+      "item": "tutorialmod:ruby_light"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:metal_detector"
+  }
+}
