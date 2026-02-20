@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.mark.tutorialmod.TutorialMod;
 import net.mark.tutorialmod.item.custom.MetalDetectorItem;
+import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -15,6 +16,8 @@ public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
     public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
     public static final Item RUBY_LIGHT = registerItem("ruby_light", new Item(new FabricItemSettings()));
+
+    public static final Item MAPLE_SIRUP_BREAD = registerItem("maple_sirup_bread", new Item(new FabricItemSettings().food(ModFoodComponents.MAPLE_SIRUP_BREAD)));
 
     public static final Item METAL_DETECTOR = registerItem("metal_detector",
             new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
