@@ -2,6 +2,7 @@ package net.mark.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.mark.tutorialmod.block.ModBlocks;
 import net.mark.tutorialmod.item.ModItemGroups;
 import net.mark.tutorialmod.item.ModItems;
@@ -20,5 +21,7 @@ public class TutorialMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.COAL_STAR, 1800);
 	}
 }

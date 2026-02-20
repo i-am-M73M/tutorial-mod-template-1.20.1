@@ -17,7 +17,11 @@ public class ModItems {
     public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
     public static final Item RUBY_LIGHT = registerItem("ruby_light", new Item(new FabricItemSettings()));
 
-    public static final Item MAPLE_SIRUP_BREAD = registerItem("maple_sirup_bread", new Item(new FabricItemSettings().food(ModFoodComponents.MAPLE_SIRUP_BREAD)));
+    public static final Item COAL_STAR = registerItem("coal_star",
+            new Item(new FabricItemSettings()));
+
+    public static final Item MAPLE_SIRUP_BREAD = registerItem("maple_sirup_bread",
+            new Item(new FabricItemSettings().food(ModFoodComponents.MAPLE_SIRUP_BREAD)));
 
     public static final Item METAL_DETECTOR = registerItem("metal_detector",
             new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));

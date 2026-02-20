@@ -1,6 +1,7 @@
 package net.mark.tutorialmod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.mark.tutorialmod.TutorialMod;
 import net.mark.tutorialmod.block.ModBlocks;
 import net.minecraft.item.Item;
@@ -20,6 +21,8 @@ public class ModItemGroups {
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RAW_RUBY);
                         entries.add(ModItems.RUBY_LIGHT);
+
+                        entries.add(ModItems.COAL_STAR);
 
                         entries.add(ModItems.METAL_DETECTOR);
 
